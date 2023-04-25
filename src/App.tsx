@@ -8,12 +8,14 @@ import Home from './pages/Home';
 
 // components
 import Header from './components/Header';
+import NavigationBar from './components/NavigationBar';
 
 function App() {
   return (
     <div className="App">
       <Router>
         <Header />
+        <NavigationBar />
         <Routes>
           <Route path='/' element={<Home />} />
         </Routes>

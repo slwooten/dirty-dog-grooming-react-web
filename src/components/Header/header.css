@@ -10,8 +10,11 @@
   justify-content: center;
   align-items: center;
   /* background-color: orange; */
-  background-color: rgb(220, 202, 182);
-  /* margin: 1rem; */
+  /* background-color: rgb(220, 202, 182); */
+  border-top: solid 2px rgb(220, 202, 182);
+  border-left: solid 2px rgb(220, 202, 182);
+  border-right: solid 2px rgb(220, 202, 182);
+  margin: 2rem;
   padding: 1rem;
 }
 
@@ -24,7 +27,7 @@
   box-shadow: rgba(0, 0, 0, 0.25) 0px 54px 55px, rgba(0, 0, 0, 0.12) 0px -12px 30px, rgba(0, 0, 0, 0.12) 0px 4px 6px, rgba(0, 0, 0, 0.17) 0px 12px 13px, rgba(0, 0, 0, 0.09) 0px -3px 5px;
   /* border-left: solid 2px rgb(35, 28, 24); */
   /* border-right: solid 2px rgb(35, 28, 24); */
-  border: solid rgb(35, 28, 24) 1px;
+  /* border: solid rgb(35, 28, 24) 2px; */
   border-radius: 100px/100px;
 }
 

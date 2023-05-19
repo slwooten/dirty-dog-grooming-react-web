@@ -3,23 +3,10 @@ import { BrowserRouter as Router, Routes, Route } from 'react-router-dom';
 
 import './App.css';
 
-// pages 
-import Home from './pages/Home';
-
-// components
-import Header from './components/Header';
-import NavigationBar from './components/NavigationBar';
-
 function App() {
   return (
     <div className="App">
-      <Router>
-        <Header />
-        <NavigationBar />
-        <Routes>
-          <Route path='/' element={<Home />} />
-        </Routes>
-      </Router>
+      Hello World
     </div>
   );
 }

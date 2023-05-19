@@ -1,0 +1,50 @@
+.pampered-section {
+  padding: 2rem;
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  font-family: "Cormorant Garamond";
+  color: #21160d;
+}
+
+.pampered-header {
+  font-size: xx-large;
+  /* margin-top: 4rem; */
+  max-width: 500px;
+}
+
+.service-items-pampered {
+  display: flex;
+  justify-content: center;
+}
+
+.service-items-pampered p {
+  margin-right: 1rem;
+  margin-left: 1rem;
+  font-size: large;
+}
+
+.book-appointment-btn {
+  margin: 2rem;
+  font-size: large;
+  border-radius: 25px/25px;
+  background-color: #dccab6;
+  padding-left: 1rem;
+  padding-right: 1rem;
+}
+
+.book-appointment-btn p {
+  text-decoration: none;
+  color: #21160d;
+}
+
+.pampered-imgs {
+  margin: 1rem;
+}
+
+.pampered-imgs img {
+  margin: 2rem;
+  width: 300px;
+  height: 300px;
+  border-radius: 10px/10px;
+}

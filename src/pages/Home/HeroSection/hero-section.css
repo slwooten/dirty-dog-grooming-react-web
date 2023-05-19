@@ -1,0 +1,24 @@
+.hero-section {
+  display: flex;
+  justify-content: space-around;
+  /* justify-content: center; */
+  align-items: center;
+  flex-wrap: wrap;
+  padding: 1rem;
+  padding-bottom: 5rem;
+  background-color: #dccab6;
+  font-family: "Cormorant Garamond";
+  color: #21160d;
+}
+
+.hero-text {
+  text-align: left;
+  font-size: xx-large;
+  max-width: 600px;
+  
+}
+
+.hero-logo {
+  /* margin-right: 4rem; */
+  /* max-height: 400px; */
+}
